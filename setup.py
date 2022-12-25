@@ -1,6 +1,7 @@
 from setuptools import setup, Extension
 from setuptools import find_packages
 
+import model
 
 with open("README.md", encoding="utf-8") as f:
     long_description = f.read()

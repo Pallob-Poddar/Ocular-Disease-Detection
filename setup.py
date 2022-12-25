@@ -1,8 +1,6 @@
 from setuptools import setup, Extension
 from setuptools import find_packages
 
-import model
-
 with open("README.md", encoding="utf-8") as f:
     long_description = f.read()
 
@@ -10,7 +8,7 @@ with open("README.md", encoding="utf-8") as f:
 if __name__ == "__main__":
     setup(
         name="model",
-        version=model.__version__,
+        version = "1.1",
         description="Model: Collection of models",
         long_description=long_description,
         long_description_content_type="text/markdown",
